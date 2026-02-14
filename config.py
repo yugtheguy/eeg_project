@@ -44,19 +44,21 @@ class SignalConfig:
 
 @dataclass
 class DecisionConfig:
-    """Configuration for attention direction decision logic."""
-    # Lateralization index thresholds
-    li_left_threshold: float = -0.15  # LI < this → LEFT attention
-    li_right_threshold: float = 0.15  # LI > this → RIGHT attention
+    """Configuration for focus detection based on alpha suppression."""
+    # Focus detection thresholds (suppression ratio)
+    focus_threshold: float = 0.7  # Ratio < this → FOCUSED
+    relax_threshold: float = 1.1  # Ratio > this → RELAXED
     # Between thresholds → NEUTRAL
     
     # Smoothing parameters
     decision_smoothing_window: int = 5  # Number of decisions to smooth
+    suppression_history_size: int = 20  # Number of ratios to keep
     min_confidence: float = 0.6  # Minimum confidence for non-NEUTRAL decision
     
-    # Adaptive threshold adjustment
-    adaptive_threshold: bool = True
-    auto_calibration_samples: int = 100  # Number of samples for auto-calibration
+    # Baseline calibration
+    calibration_duration: float = 10.0  # Seconds for baseline calibration
+    min_quality_score: float = 50.0  # Minimum quality to accept data
+    min_snr_threshold: float = 0.0  # Minimum SNR in dB (lowered for testing)
 
 
 @dataclass
