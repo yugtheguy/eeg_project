@@ -1,0 +1,11 @@
+{
+  "iaf_hz": 8.5,
+  "peak_power_db": 12.93,
+  "search_range_hz": [
+    6.0,
+    14.0
+  ],
+  "used_default": false,
+  "source": "calibrated_from_sub-01",
+  "note": "IAF fixed at real sub-01 measured value (8.5 Hz)."
+}

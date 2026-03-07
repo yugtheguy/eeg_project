@@ -1,0 +1,97 @@
+# =============================================================================
+# EEG Attention Decoder — Default Configuration
+# All experiments must reference this file; its hash is logged per run.
+# =============================================================================
+
+system:
+  random_seed: 42
+  git_commit: null           # Auto-populated at runtime via main.py
+
+hardware:
+  sampling_rate: 250         # Hz — Arduino R4 target rate
+  n_channels: 2              # T7, T8 (Cz added later)
+  channel_names: ["T7", "T8"]
+  serial_port: "COM7"
+  baud_rate: 115200
+  packet_format: "timestamp_ms,seq_id,left,right"
+
+acquisition:
+  buffer_size_sec: 60        # Ring-buffer length kept in RAM
+  reconnect_attempts: 3
+  reconnect_delay_sec: 2.0
+  output_dir: "data/raw"     # Relative to project root
+
+processing:
+  # ── Bandpass ──────────────────────────────────────────────────────────────
+  bandpass_low: 2.0          # Hz  (causal Butterworth)
+  bandpass_high: 25.0        # Hz
+  bandpass_order: 4          # 4th order → 80 dB/decade roll-off
+
+  # ── Notch ─────────────────────────────────────────────────────────────────
+  notch_freq: 50.0           # Hz  (mains; use 60.0 for North America)
+  notch_order: 2             # 2nd order IIR notch
+  notch_q: 30.0              # Quality factor
+
+  # ── Referencing ───────────────────────────────────────────────────────────
+  reference_type: "linked_mastoid"  # "linked_mastoid" | "CAR"
+  # With 2 channels the hardware mastoid reference is already applied.
+  # CAR is only activated when n_channels >= 3.
+
+features:
+  window_size_sec: 1.0       # Analysis window length (FIXED at 1 s Phase 1)
+  overlap: 0.5               # 50 % → step = 0.5 s → 2 Hz feature rate
+
+  # ── Individual Alpha Frequency (IAF) ──────────────────────────────────────
+  iaf_search_min: 6.0        # Hz  — do NOT use fixed 8–12 Hz
+  iaf_search_max: 14.0       # Hz
+  iaf_bandwidth: 2.0         # ± Hz around IAF for alpha band
+
+  # ── Beta band ─────────────────────────────────────────────────────────────
+  beta_low: 13.0             # Hz
+  beta_high: 20.0            # Hz
+
+  # ── Broadband for relative alpha ──────────────────────────────────────────
+  broadband_low: 4.0         # Hz  (denominator of relative alpha)
+  broadband_high: 25.0       # Hz
+
+  enable_coherence: false    # Coherence feature — off until stability check
+
+iaf:
+  baseline_duration_sec: 120  # 2-min eyes-closed required
+  default_iaf_hz: 10.0        # Fallback if no clear spectral peak
+
+experiment:
+  block_duration_min_sec: 10
+  block_duration_max_sec: 15
+  catch_trial_fraction: 0.20      # Silent catch trials
+  bilateral_trial_fraction: 0.20  # Bilateral attention trials
+  physiological_delay_ms: 400     # Label → window-center alignment shift
+
+  # Labels: 0 = Left, 1 = Right, 2 = Neutral, 3 = Catch, 4 = Bilateral
+  label_map:
+    left: 0
+    right: 1
+    neutral: 2
+    catch: 3
+    bilateral: 4
+
+cross_validation:
+  strategy: "leave_one_block_out"   # "leave_one_block_out" | "leave_one_session_out"
+  n_permutations: 1000
+  alpha_level: 0.05
+  bootstrap_n: 1000
+  bootstrap_ci: 95                  # Confidence interval percentage
+
+realtime:
+  buffer_size_sec: 1.0
+  smoothing_alpha: 0.2              # Exponential smoothing weight (new sample)
+  max_latency_ms: 250
+  output_mode: "probability"        # "probability" | "label"
+  dashboard_update_hz: 10           # PyQtGraph refresh rate
+
+model:
+  type: "lda"
+  shrinkage: "auto"                 # Ledoit-Wolf shrinkage
+  save_dir: "models/saved"
+  save_scaler: true
+  save_metadata: true

@@ -1,0 +1,11 @@
+{
+  "iaf_hz": 10.2,
+  "peak_power_db": -4.8,
+  "search_range_hz": [
+    6.0,
+    14.0
+  ],
+  "used_default": false,
+  "source": "synthetic_fixed",
+  "note": "Fixed at simulation frequency; not estimated from data."
+}

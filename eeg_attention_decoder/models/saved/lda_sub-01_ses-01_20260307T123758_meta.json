@@ -1,0 +1,18 @@
+{
+  "fit_timestamp_utc": "2026-03-07T07:07:58Z",
+  "n_training_windows": 282,
+  "n_features": 7,
+  "classes": [
+    0,
+    1
+  ],
+  "shrinkage": "auto",
+  "random_state": 42,
+  "iaf_hz": 8.5,
+  "strategy": "leave_one_block_out",
+  "window_size_sec": 1.0,
+  "filter_low": 2.0,
+  "filter_high": 25.0,
+  "subject_id": "sub-01",
+  "session_id": "ses-01"
+}

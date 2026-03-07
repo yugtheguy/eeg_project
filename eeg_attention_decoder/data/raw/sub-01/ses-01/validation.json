@@ -1,0 +1,68 @@
+{
+  "subject_id": "sub-01",
+  "session_id": "ses-01",
+  "timestamp_utc": "2026-03-07T07:06:41Z",
+  "fs": 250,
+  "iaf_hz": 10.0,
+  "sampling_stability": {
+    "n_packets": 93750,
+    "nominal_fs": 250,
+    "effective_fs": 249.9032,
+    "iti_mean_ms": 4.0015,
+    "iti_std_ms": 0.3363,
+    "iti_cv": 0.084,
+    "iti_p95_ms": 4.533,
+    "iti_p99_ms": 4.9138,
+    "ppm_drift": -387.23,
+    "passed": true
+  },
+  "packet_loss": {
+    "n_received": 93750,
+    "n_expected": 28213,
+    "n_dropped": 0,
+    "loss_fraction": 0.0,
+    "gap_list": [],
+    "passed": true
+  },
+  "noise_floor": {
+    "noise_rms_uv_per_channel": [
+      1.1811,
+      1.002
+    ],
+    "noise_rms_uv_mean": 1.0916,
+    "dynamic_range_db": 56.28,
+    "noise_band_hz": [
+      100.0,
+      120.0
+    ],
+    "passed": true
+  },
+  "alpha_snr": {
+    "iaf_hz": 10.0,
+    "alpha_band_hz": [
+      8.0,
+      12.0
+    ],
+    "noise_band_hz": [
+      20.0,
+      25.0
+    ],
+    "alpha_power_db_per_channel": [
+      5.56,
+      5.24
+    ],
+    "noise_power_db_per_channel": [
+      -1.68,
+      -1.69
+    ],
+    "snr_db_per_channel": [
+      7.24,
+      6.93
+    ],
+    "snr_db_mean": 7.08,
+    "passed": true
+  },
+  "overall_passed": true,
+  "checks_passed": 4,
+  "checks_total": 4
+}

@@ -1,0 +1,33 @@
+{
+  "run_id": "train_sub-01_ses-01_20260307T121441",
+  "mode": "train",
+  "timestamp_utc": "2026-03-07T06:45:34Z",
+  "git_commit": "6a5dfc7",
+  "config_hash": "b944c6860bac",
+  "random_seed": 42,
+  "subject_id": "sub-01",
+  "session_id": "ses-01",
+  "iaf_hz": 8.5,
+  "cv_summary": {
+    "n_folds": 12,
+    "mean_accuracy": 0.5131636881636882,
+    "std_accuracy": 0.15521418702336937,
+    "mean_balanced_accuracy": 0.5131636881636882,
+    "std_balanced_accuracy": 0.15521418702336937
+  },
+  "perm_p_value": 0.057,
+  "perm_reject_null": false,
+  "model_path": "C:\\Users\\Yug  deshmukh\\Desktop\\HEARING_AID\\eeg_attention_decoder\\models\\saved\\lda_sub-01_ses-01_20260307T121534.joblib",
+  "n_windows": 142,
+  "window_metrics": {
+    "accuracy": 0.5141,
+    "accuracy_ci_lo": 0.4296,
+    "accuracy_ci_hi": 0.6056,
+    "balanced_accuracy": 0.5137,
+    "bacc_ci_lo": 0.4295,
+    "bacc_ci_hi": 0.6017,
+    "roc_auc": 0.5446,
+    "n_windows": 142
+  },
+  "block_accuracy": 0.5
+}

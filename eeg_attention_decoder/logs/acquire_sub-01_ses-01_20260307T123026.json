@@ -1,0 +1,10 @@
+{
+  "run_id": "acquire_sub-01_ses-01_20260307T123026",
+  "mode": "acquire",
+  "timestamp_utc": "2026-03-07T07:06:46Z",
+  "git_commit": "6a5dfc7",
+  "config_hash": "0b2e87493b02",
+  "random_seed": 42,
+  "n_packets": 94964,
+  "csv_path": "data\\raw\\sub-01\\ses-01\\raw_eeg_20260307T123026.csv"
+}

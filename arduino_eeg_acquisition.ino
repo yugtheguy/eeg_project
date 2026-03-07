@@ -20,8 +20,8 @@
  * - Arduino USB                 → Computer
  * 
  * OUTPUT FORMAT:
- * CSV format: timestamp,left_value,right_value
- * Example: 1234567,512,0
+ * CSV format: timestamp_ms,seq_id,left_value,right_value
+ * Example: 1234,0,512,487
  * 
  * TECHNICAL SPECS:
  * - Sampling Rate: 250 Hz (one sample every 4000 microseconds)
@@ -43,12 +43,16 @@
 // CONFIGURATION PARAMETERS
 // ============================================================================
 
-const int eegPin = A0;              // Analog input pin for EEG signal
-const int sampleRate = 250;         // Sampling rate in Hz (samples per second)
+const int eegLeftPin  = A0;         // Left hemisphere (T7)
+const int eegRightPin = A1;         // Right hemisphere (T8)
+const int sampleRate = 250;         // Sampling rate in Hz
 const unsigned long interval = 1000000UL / sampleRate;  // 4000 microseconds
 
 // Timing variables
 unsigned long lastMicros = 0;
+
+// Sequence counter (wraps at 65535 matching Python SEQ_MAX)
+uint16_t seqId = 0;
 
 // ============================================================================
 // SETUP - Runs once at startup
@@ -59,9 +63,10 @@ void setup() {
   // This allows fast data transmission to Python software
   Serial.begin(115200);
   
-  // Configure analog input pin
+  // Configure analog input pins
   // Arduino Uno/Nano: 10-bit ADC (0-1023 for 0-5V)
-  pinMode(eegPin, INPUT);
+  pinMode(eegLeftPin,  INPUT);
+  pinMode(eegRightPin, INPUT);
   
   // Optional: Set analog reference to default (5V)
   // analogReference(DEFAULT);
@@ -83,20 +88,23 @@ void loop() {
     // Update last sample time
     lastMicros = currentMicros;
     
-    // Read EEG signal from analog pin A0
-    // Returns value 0-1023 (10-bit ADC)
-    // 0 = 0V, 512 = 2.5V, 1023 = 5V
-    int eeg = analogRead(eegPin);
-    
-    // Get precise timestamp in microseconds
-    unsigned long timestamp = micros();
-    
-    // Transmit data in CSV format: timestamp,left,right
-    Serial.print(timestamp);
+    // Read both EEG channels
+    int leftVal  = analogRead(eegLeftPin);
+    int rightVal = analogRead(eegRightPin);
+
+    // Timestamp in milliseconds (millis() matches Python parser)
+    unsigned long timestamp_ms = millis();
+
+    // Transmit: timestamp_ms,seq_id,left,right
+    Serial.print(timestamp_ms);
     Serial.print(",");
-    Serial.print(eeg);
+    Serial.print(seqId);
     Serial.print(",");
-    Serial.println(0);  // Dummy right channel (change to analogRead(A1) for dual-channel)
+    Serial.print(leftVal);
+    Serial.print(",");
+    Serial.println(rightVal);
+
+    seqId++;  // wraps at 65535 automatically (uint16_t)
   }
 }
 

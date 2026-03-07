@@ -1,0 +1,1297 @@
+{
+  "subject_id": "sub-sim",
+  "session_id": "ses-01",
+  "seed": 42,
+  "n_blocks": 160,
+  "total_duration_sec": 1029.026357694025,
+  "label_counts": {
+    "left": 32,
+    "right": 32,
+    "neutral": 32,
+    "catch": 32,
+    "bilateral": 32
+  },
+  "generated_utc": "2026-03-05T17:32:16Z",
+  "blocks": [
+    {
+      "block_id": 0,
+      "trial_type": "left",
+      "label": 0,
+      "onset_sec": 0.0,
+      "offset_sec": 6.7629,
+      "duration_sec": 6.7629
+    },
+    {
+      "block_id": 1,
+      "trial_type": "bilateral",
+      "label": 4,
+      "onset_sec": 6.7629,
+      "offset_sec": 12.2747,
+      "duration_sec": 5.5118
+    },
+    {
+      "block_id": 2,
+      "trial_type": "catch",
+      "label": 3,
+      "onset_sec": 12.2747,
+      "offset_sec": 20.0501,
+      "duration_sec": 7.7754
+    },
+    {
+      "block_id": 3,
+      "trial_type": "right",
+      "label": 1,
+      "onset_sec": 20.0501,
+      "offset_sec": 26.7933,
+      "duration_sec": 6.7432
+    },
+    {
+      "block_id": 4,
+      "trial_type": "bilateral",
+      "label": 4,
+      "onset_sec": 26.7933,
+      "offset_sec": 32.8339,
+      "duration_sec": 6.0406
+    },
+    {
+      "block_id": 5,
+      "trial_type": "neutral",
+      "label": 2,
+      "onset_sec": 32.8339,
+      "offset_sec": 39.6066,
+      "duration_sec": 6.7727
+    },
+    {
+      "block_id": 6,
+      "trial_type": "catch",
+      "label": 3,
+      "onset_sec": 39.6066,
+      "offset_sec": 44.675,
+      "duration_sec": 5.0684
+    },
+    {
+      "block_id": 7,
+      "trial_type": "bilateral",
+      "label": 4,
+      "onset_sec": 44.675,
+      "offset_sec": 52.5507,
+      "duration_sec": 7.8757
+    },
+    {
+      "block_id": 8,
+      "trial_type": "bilateral",
+      "label": 4,
+      "onset_sec": 52.5507,
+      "offset_sec": 58.9976,
+      "duration_sec": 6.4469
+    },
+    {
+      "block_id": 9,
+      "trial_type": "right",
+      "label": 1,
+      "onset_sec": 58.9976,
+      "offset_sec": 66.3458,
+      "duration_sec": 7.3482
+    },
+    {
+      "block_id": 10,
+      "trial_type": "catch",
+      "label": 3,
+      "onset_sec": 66.3458,
+      "offset_sec": 71.594,
+      "duration_sec": 5.2482
+    },
+    {
+      "block_id": 11,
+      "trial_type": "catch",
+      "label": 3,
+      "onset_sec": 71.594,
+      "offset_sec": 78.054,
+      "duration_sec": 6.46
+    },
+    {
+      "block_id": 12,
+      "trial_type": "right",
+      "label": 1,
+      "onset_sec": 78.054,
+      "offset_sec": 84.5261,
+      "duration_sec": 6.4721
+    },
+    {
+      "block_id": 13,
+      "trial_type": "left",
+      "label": 0,
+      "onset_sec": 84.5261,
+      "offset_sec": 92.3396,
+      "duration_sec": 7.8135
+    },
+    {
+      "block_id": 14,
+      "trial_type": "bilateral",
+      "label": 4,
+      "onset_sec": 92.3396,
+      "offset_sec": 99.0548,
+      "duration_sec": 6.7152
+    },
+    {
+      "block_id": 15,
+      "trial_type": "left",
+      "label": 0,
+      "onset_sec": 99.0548,
+      "offset_sec": 105.4752,
+      "duration_sec": 6.4205
+    },
+    {
+      "block_id": 16,
+      "trial_type": "left",
+      "label": 0,
+      "onset_sec": 105.4752,
+      "offset_sec": 111.2762,
+      "duration_sec": 5.8009
+    },
+    {
+      "block_id": 17,
+      "trial_type": "bilateral",
+      "label": 4,
+      "onset_sec": 111.2762,
+      "offset_sec": 117.2709,
+      "duration_sec": 5.9947
+    },
+    {
+      "block_id": 18,
+      "trial_type": "bilateral",
+      "label": 4,
+      "onset_sec": 117.2709,
+      "offset_sec": 123.8329,
+      "duration_sec": 6.562
+    },
+    {
+      "block_id": 19,
+      "trial_type": "catch",
+      "label": 3,
+      "onset_sec": 123.8329,
+      "offset_sec": 130.1496,
+      "duration_sec": 6.3167
+    },
+    {
+      "block_id": 20,
+      "trial_type": "catch",
+      "label": 3,
+      "onset_sec": 130.1496,
+      "offset_sec": 135.2145,
+      "duration_sec": 5.0648
+    },
+    {
+      "block_id": 21,
+      "trial_type": "left",
+      "label": 0,
+      "onset_sec": 135.2145,
+      "offset_sec": 142.6933,
+      "duration_sec": 7.4789
+    },
+    {
+      "block_id": 22,
+      "trial_type": "right",
+      "label": 1,
+      "onset_sec": 142.6933,
+      "offset_sec": 150.3818,
+      "duration_sec": 7.6885
+    },
+    {
+      "block_id": 23,
+      "trial_type": "right",
+      "label": 1,
+      "onset_sec": 150.3818,
+      "offset_sec": 155.8026,
+      "duration_sec": 5.4207
+    },
+    {
+      "block_id": 24,
+      "trial_type": "left",
+      "label": 0,
+      "onset_sec": 155.8026,
+      "offset_sec": 162.4647,
+      "duration_sec": 6.6621
+    },
+    {
+      "block_id": 25,
+      "trial_type": "bilateral",
+      "label": 4,
+      "onset_sec": 162.4647,
+      "offset_sec": 167.7904,
+      "duration_sec": 5.3257
+    },
+    {
+      "block_id": 26,
+      "trial_type": "catch",
+      "label": 3,
+      "onset_sec": 167.7904,
+      "offset_sec": 174.8071,
+      "duration_sec": 7.0167
+    },
+    {
+      "block_id": 27,
+      "trial_type": "left",
+      "label": 0,
+      "onset_sec": 174.8071,
+      "offset_sec": 180.6508,
+      "duration_sec": 5.8437
+    },
+    {
+      "block_id": 28,
+      "trial_type": "right",
+      "label": 1,
+      "onset_sec": 180.6508,
+      "offset_sec": 187.6291,
+      "duration_sec": 6.9783
+    },
+    {
+      "block_id": 29,
+      "trial_type": "catch",
+      "label": 3,
+      "onset_sec": 187.6291,
+      "offset_sec": 194.8101,
+      "duration_sec": 7.181
+    },
+    {
+      "block_id": 30,
+      "trial_type": "neutral",
+      "label": 2,
+      "onset_sec": 194.8101,
+      "offset_sec": 202.116,
+      "duration_sec": 7.3059
+    },
+    {
+      "block_id": 31,
+      "trial_type": "right",
+      "label": 1,
+      "onset_sec": 202.116,
+      "offset_sec": 207.4392,
+      "duration_sec": 5.3232
+    },
+    {
+      "block_id": 32,
+      "trial_type": "bilateral",
+      "label": 4,
+      "onset_sec": 207.4392,
+      "offset_sec": 215.1873,
+      "duration_sec": 7.748
+    },
+    {
+      "block_id": 33,
+      "trial_type": "neutral",
+      "label": 2,
+      "onset_sec": 215.1873,
+      "offset_sec": 220.8779,
+      "duration_sec": 5.6906
+    },
+    {
+      "block_id": 34,
+      "trial_type": "right",
+      "label": 1,
+      "onset_sec": 220.8779,
+      "offset_sec": 225.9902,
+      "duration_sec": 5.1122
+    },
+    {
+      "block_id": 35,
+      "trial_type": "catch",
+      "label": 3,
+      "onset_sec": 225.9902,
+      "offset_sec": 232.6547,
+      "duration_sec": 6.6646
+    },
+    {
+      "block_id": 36,
+      "trial_type": "left",
+      "label": 0,
+      "onset_sec": 232.6547,
+      "offset_sec": 238.7675,
+      "duration_sec": 6.1128
+    },
+    {
+      "block_id": 37,
+      "trial_type": "catch",
+      "label": 3,
+      "onset_sec": 238.7675,
+      "offset_sec": 246.2568,
+      "duration_sec": 7.4894
+    },
+    {
+      "block_id": 38,
+      "trial_type": "left",
+      "label": 0,
+      "onset_sec": 246.2568,
+      "offset_sec": 253.6816,
+      "duration_sec": 7.4248
+    },
+    {
+      "block_id": 39,
+      "trial_type": "right",
+      "label": 1,
+      "onset_sec": 253.6816,
+      "offset_sec": 259.633,
+      "duration_sec": 5.9514
+    },
+    {
+      "block_id": 40,
+      "trial_type": "neutral",
+      "label": 2,
+      "onset_sec": 259.633,
+      "offset_sec": 267.4917,
+      "duration_sec": 7.8587
+    },
+    {
+      "block_id": 41,
+      "trial_type": "right",
+      "label": 1,
+      "onset_sec": 267.4917,
+      "offset_sec": 273.3645,
+      "duration_sec": 5.8728
+    },
+    {
+      "block_id": 42,
+      "trial_type": "catch",
+      "label": 3,
+      "onset_sec": 273.3645,
+      "offset_sec": 279.9096,
+      "duration_sec": 6.5452
+    },
+    {
+      "block_id": 43,
+      "trial_type": "bilateral",
+      "label": 4,
+      "onset_sec": 279.9096,
+      "offset_sec": 285.6775,
+      "duration_sec": 5.7679
+    },
+    {
+      "block_id": 44,
+      "trial_type": "bilateral",
+      "label": 4,
+      "onset_sec": 285.6775,
+      "offset_sec": 293.4857,
+      "duration_sec": 7.8081
+    },
+    {
+      "block_id": 45,
+      "trial_type": "left",
+      "label": 0,
+      "onset_sec": 293.4857,
+      "offset_sec": 298.9795,
+      "duration_sec": 5.4938
+    },
+    {
+      "block_id": 46,
+      "trial_type": "neutral",
+      "label": 2,
+      "onset_sec": 298.9795,
+      "offset_sec": 304.1142,
+      "duration_sec": 5.1347
+    },
+    {
+      "block_id": 47,
+      "trial_type": "neutral",
+      "label": 2,
+      "onset_sec": 304.1142,
+      "offset_sec": 310.4195,
+      "duration_sec": 6.3053
+    },
+    {
+      "block_id": 48,
+      "trial_type": "neutral",
+      "label": 2,
+      "onset_sec": 310.4195,
+      "offset_sec": 318.3966,
+      "duration_sec": 7.9771
+    },
+    {
+      "block_id": 49,
+      "trial_type": "left",
+      "label": 0,
+      "onset_sec": 318.3966,
+      "offset_sec": 326.0717,
+      "duration_sec": 7.675
+    },
+    {
+      "block_id": 50,
+      "trial_type": "catch",
+      "label": 3,
+      "onset_sec": 326.0717,
+      "offset_sec": 333.3175,
+      "duration_sec": 7.2458
+    },
+    {
+      "block_id": 51,
+      "trial_type": "neutral",
+      "label": 2,
+      "onset_sec": 333.3175,
+      "offset_sec": 340.9899,
+      "duration_sec": 7.6724
+    },
+    {
+      "block_id": 52,
+      "trial_type": "left",
+      "label": 0,
+      "onset_sec": 340.9899,
+      "offset_sec": 348.6702,
+      "duration_sec": 7.6803
+    },
+    {
+      "block_id": 53,
+      "trial_type": "neutral",
+      "label": 2,
+      "onset_sec": 348.6702,
+      "offset_sec": 355.2268,
+      "duration_sec": 6.5566
+    },
+    {
+      "block_id": 54,
+      "trial_type": "catch",
+      "label": 3,
+      "onset_sec": 355.2268,
+      "offset_sec": 361.1746,
+      "duration_sec": 5.9478
+    },
+    {
+      "block_id": 55,
+      "trial_type": "catch",
+      "label": 3,
+      "onset_sec": 361.1746,
+      "offset_sec": 368.4906,
+      "duration_sec": 7.316
+    },
+    {
+      "block_id": 56,
+      "trial_type": "catch",
+      "label": 3,
+      "onset_sec": 368.4906,
+      "offset_sec": 375.4756,
+      "duration_sec": 6.985
+    },
+    {
+      "block_id": 57,
+      "trial_type": "neutral",
+      "label": 2,
+      "onset_sec": 375.4756,
+      "offset_sec": 381.5966,
+      "duration_sec": 6.121
+    },
+    {
+      "block_id": 58,
+      "trial_type": "bilateral",
+      "label": 4,
+      "onset_sec": 381.5966,
+      "offset_sec": 386.88,
+      "duration_sec": 5.2834
+    },
+    {
+      "block_id": 59,
+      "trial_type": "left",
+      "label": 0,
+      "onset_sec": 386.88,
+      "offset_sec": 394.1203,
+      "duration_sec": 7.2404
+    },
+    {
+      "block_id": 60,
+      "trial_type": "neutral",
+      "label": 2,
+      "onset_sec": 394.1203,
+      "offset_sec": 399.9077,
+      "duration_sec": 5.7874
+    },
+    {
+      "block_id": 61,
+      "trial_type": "bilateral",
+      "label": 4,
+      "onset_sec": 399.9077,
+      "offset_sec": 407.7182,
+      "duration_sec": 7.8104
+    },
+    {
+      "block_id": 62,
+      "trial_type": "left",
+      "label": 0,
+      "onset_sec": 407.7182,
+      "offset_sec": 413.4411,
+      "duration_sec": 5.7229
+    },
+    {
+      "block_id": 63,
+      "trial_type": "bilateral",
+      "label": 4,
+      "onset_sec": 413.4411,
+      "offset_sec": 418.8093,
+      "duration_sec": 5.3683
+    },
+    {
+      "block_id": 64,
+      "trial_type": "left",
+      "label": 0,
+      "onset_sec": 418.8093,
+      "offset_sec": 426.3027,
+      "duration_sec": 7.4933
+    },
+    {
+      "block_id": 65,
+      "trial_type": "catch",
+      "label": 3,
+      "onset_sec": 426.3027,
+      "offset_sec": 431.7625,
+      "duration_sec": 5.4599
+    },
+    {
+      "block_id": 66,
+      "trial_type": "right",
+      "label": 1,
+      "onset_sec": 431.7625,
+      "offset_sec": 437.3003,
+      "duration_sec": 5.5378
+    },
+    {
+      "block_id": 67,
+      "trial_type": "bilateral",
+      "label": 4,
+      "onset_sec": 437.3003,
+      "offset_sec": 444.0985,
+      "duration_sec": 6.7981
+    },
+    {
+      "block_id": 68,
+      "trial_type": "neutral",
+      "label": 2,
+      "onset_sec": 444.0985,
+      "offset_sec": 451.7222,
+      "duration_sec": 7.6237
+    },
+    {
+      "block_id": 69,
+      "trial_type": "catch",
+      "label": 3,
+      "onset_sec": 451.7222,
+      "offset_sec": 457.3115,
+      "duration_sec": 5.5893
+    },
+    {
+      "block_id": 70,
+      "trial_type": "neutral",
+      "label": 2,
+      "onset_sec": 457.3115,
+      "offset_sec": 463.2424,
+      "duration_sec": 5.931
+    },
+    {
+      "block_id": 71,
+      "trial_type": "bilateral",
+      "label": 4,
+      "onset_sec": 463.2424,
+      "offset_sec": 470.5747,
+      "duration_sec": 7.3322
+    },
+    {
+      "block_id": 72,
+      "trial_type": "catch",
+      "label": 3,
+      "onset_sec": 470.5747,
+      "offset_sec": 478.4901,
+      "duration_sec": 7.9155
+    },
+    {
+      "block_id": 73,
+      "trial_type": "right",
+      "label": 1,
+      "onset_sec": 478.4901,
+      "offset_sec": 484.9924,
+      "duration_sec": 6.5022
+    },
+    {
+      "block_id": 74,
+      "trial_type": "neutral",
+      "label": 2,
+      "onset_sec": 484.9924,
+      "offset_sec": 490.4241,
+      "duration_sec": 5.4317
+    },
+    {
+      "block_id": 75,
+      "trial_type": "left",
+      "label": 0,
+      "onset_sec": 490.4241,
+      "offset_sec": 495.4659,
+      "duration_sec": 5.0418
+    },
+    {
+      "block_id": 76,
+      "trial_type": "bilateral",
+      "label": 4,
+      "onset_sec": 495.4659,
+      "offset_sec": 501.1548,
+      "duration_sec": 5.689
+    },
+    {
+      "block_id": 77,
+      "trial_type": "neutral",
+      "label": 2,
+      "onset_sec": 501.1548,
+      "offset_sec": 506.5503,
+      "duration_sec": 5.3955
+    },
+    {
+      "block_id": 78,
+      "trial_type": "catch",
+      "label": 3,
+      "onset_sec": 506.5503,
+      "offset_sec": 513.5833,
+      "duration_sec": 7.033
+    },
+    {
+      "block_id": 79,
+      "trial_type": "neutral",
+      "label": 2,
+      "onset_sec": 513.5833,
+      "offset_sec": 518.9488,
+      "duration_sec": 5.3655
+    },
+    {
+      "block_id": 80,
+      "trial_type": "neutral",
+      "label": 2,
+      "onset_sec": 518.9488,
+      "offset_sec": 525.4678,
+      "duration_sec": 6.519
+    },
+    {
+      "block_id": 81,
+      "trial_type": "left",
+      "label": 0,
+      "onset_sec": 525.4678,
+      "offset_sec": 532.5506,
+      "duration_sec": 7.0828
+    },
+    {
+      "block_id": 82,
+      "trial_type": "neutral",
+      "label": 2,
+      "onset_sec": 532.5506,
+      "offset_sec": 539.2939,
+      "duration_sec": 6.7433
+    },
+    {
+      "block_id": 83,
+      "trial_type": "right",
+      "label": 1,
+      "onset_sec": 539.2939,
+      "offset_sec": 544.8932,
+      "duration_sec": 5.5993
+    },
+    {
+      "block_id": 84,
+      "trial_type": "neutral",
+      "label": 2,
+      "onset_sec": 544.8932,
+      "offset_sec": 552.3056,
+      "duration_sec": 7.4124
+    },
+    {
+      "block_id": 85,
+      "trial_type": "neutral",
+      "label": 2,
+      "onset_sec": 552.3056,
+      "offset_sec": 559.4518,
+      "duration_sec": 7.1462
+    },
+    {
+      "block_id": 86,
+      "trial_type": "neutral",
+      "label": 2,
+      "onset_sec": 559.4518,
+      "offset_sec": 566.6688,
+      "duration_sec": 7.217
+    },
+    {
+      "block_id": 87,
+      "trial_type": "catch",
+      "label": 3,
+      "onset_sec": 566.6688,
+      "offset_sec": 572.062,
+      "duration_sec": 5.3932
+    },
+    {
+      "block_id": 88,
+      "trial_type": "catch",
+      "label": 3,
+      "onset_sec": 572.062,
+      "offset_sec": 577.4332,
+      "duration_sec": 5.3713
+    },
+    {
+      "block_id": 89,
+      "trial_type": "left",
+      "label": 0,
+      "onset_sec": 577.4332,
+      "offset_sec": 585.2159,
+      "duration_sec": 7.7827
+    },
+    {
+      "block_id": 90,
+      "trial_type": "neutral",
+      "label": 2,
+      "onset_sec": 585.2159,
+      "offset_sec": 591.4086,
+      "duration_sec": 6.1927
+    },
+    {
+      "block_id": 91,
+      "trial_type": "bilateral",
+      "label": 4,
+      "onset_sec": 591.4086,
+      "offset_sec": 597.3115,
+      "duration_sec": 5.9028
+    },
+    {
+      "block_id": 92,
+      "trial_type": "bilateral",
+      "label": 4,
+      "onset_sec": 597.3115,
+      "offset_sec": 603.7772,
+      "duration_sec": 6.4658
+    },
+    {
+      "block_id": 93,
+      "trial_type": "neutral",
+      "label": 2,
+      "onset_sec": 603.7772,
+      "offset_sec": 610.7658,
+      "duration_sec": 6.9886
+    },
+    {
+      "block_id": 94,
+      "trial_type": "left",
+      "label": 0,
+      "onset_sec": 610.7658,
+      "offset_sec": 618.6327,
+      "duration_sec": 7.8669
+    },
+    {
+      "block_id": 95,
+      "trial_type": "catch",
+      "label": 3,
+      "onset_sec": 618.6327,
+      "offset_sec": 624.492,
+      "duration_sec": 5.8593
+    },
+    {
+      "block_id": 96,
+      "trial_type": "left",
+      "label": 0,
+      "onset_sec": 624.492,
+      "offset_sec": 632.2665,
+      "duration_sec": 7.7744
+    },
+    {
+      "block_id": 97,
+      "trial_type": "right",
+      "label": 1,
+      "onset_sec": 632.2665,
+      "offset_sec": 637.341,
+      "duration_sec": 5.0746
+    },
+    {
+      "block_id": 98,
+      "trial_type": "neutral",
+      "label": 2,
+      "onset_sec": 637.341,
+      "offset_sec": 644.0066,
+      "duration_sec": 6.6656
+    },
+    {
+      "block_id": 99,
+      "trial_type": "right",
+      "label": 1,
+      "onset_sec": 644.0066,
+      "offset_sec": 650.9086,
+      "duration_sec": 6.9019
+    },
+    {
+      "block_id": 100,
+      "trial_type": "bilateral",
+      "label": 4,
+      "onset_sec": 650.9086,
+      "offset_sec": 656.2262,
+      "duration_sec": 5.3177
+    },
+    {
+      "block_id": 101,
+      "trial_type": "right",
+      "label": 1,
+      "onset_sec": 656.2262,
+      "offset_sec": 661.6473,
+      "duration_sec": 5.421
+    },
+    {
+      "block_id": 102,
+      "trial_type": "left",
+      "label": 0,
+      "onset_sec": 661.6473,
+      "offset_sec": 667.9046,
+      "duration_sec": 6.2573
+    },
+    {
+      "block_id": 103,
+      "trial_type": "right",
+      "label": 1,
+      "onset_sec": 667.9046,
+      "offset_sec": 675.8033,
+      "duration_sec": 7.8987
+    },
+    {
+      "block_id": 104,
+      "trial_type": "bilateral",
+      "label": 4,
+      "onset_sec": 675.8033,
+      "offset_sec": 682.5914,
+      "duration_sec": 6.7881
+    },
+    {
+      "block_id": 105,
+      "trial_type": "right",
+      "label": 1,
+      "onset_sec": 682.5914,
+      "offset_sec": 690.3905,
+      "duration_sec": 7.7991
+    },
+    {
+      "block_id": 106,
+      "trial_type": "neutral",
+      "label": 2,
+      "onset_sec": 690.3905,
+      "offset_sec": 697.8036,
+      "duration_sec": 7.4131
+    },
+    {
+      "block_id": 107,
+      "trial_type": "catch",
+      "label": 3,
+      "onset_sec": 697.8036,
+      "offset_sec": 704.2057,
+      "duration_sec": 6.4021
+    },
+    {
+      "block_id": 108,
+      "trial_type": "right",
+      "label": 1,
+      "onset_sec": 704.2057,
+      "offset_sec": 711.56,
+      "duration_sec": 7.3543
+    },
+    {
+      "block_id": 109,
+      "trial_type": "catch",
+      "label": 3,
+      "onset_sec": 711.56,
+      "offset_sec": 716.6135,
+      "duration_sec": 5.0535
+    },
+    {
+      "block_id": 110,
+      "trial_type": "neutral",
+      "label": 2,
+      "onset_sec": 716.6135,
+      "offset_sec": 721.941,
+      "duration_sec": 5.3274
+    },
+    {
+      "block_id": 111,
+      "trial_type": "neutral",
+      "label": 2,
+      "onset_sec": 721.941,
+      "offset_sec": 729.4292,
+      "duration_sec": 7.4883
+    },
+    {
+      "block_id": 112,
+      "trial_type": "bilateral",
+      "label": 4,
+      "onset_sec": 729.4292,
+      "offset_sec": 736.8197,
+      "duration_sec": 7.3905
+    },
+    {
+      "block_id": 113,
+      "trial_type": "left",
+      "label": 0,
+      "onset_sec": 736.8197,
+      "offset_sec": 742.5176,
+      "duration_sec": 5.6979
+    },
+    {
+      "block_id": 114,
+      "trial_type": "catch",
+      "label": 3,
+      "onset_sec": 742.5176,
+      "offset_sec": 749.1099,
+      "duration_sec": 6.5923
+    },
+    {
+      "block_id": 115,
+      "trial_type": "catch",
+      "label": 3,
+      "onset_sec": 749.1099,
+      "offset_sec": 755.928,
+      "duration_sec": 6.818
+    },
+    {
+      "block_id": 116,
+      "trial_type": "catch",
+      "label": 3,
+      "onset_sec": 755.928,
+      "offset_sec": 763.5312,
+      "duration_sec": 7.6032
+    },
+    {
+      "block_id": 117,
+      "trial_type": "neutral",
+      "label": 2,
+      "onset_sec": 763.5312,
+      "offset_sec": 770.3405,
+      "duration_sec": 6.8093
+    },
+    {
+      "block_id": 118,
+      "trial_type": "left",
+      "label": 0,
+      "onset_sec": 770.3405,
+      "offset_sec": 776.5782,
+      "duration_sec": 6.2377
+    },
+    {
+      "block_id": 119,
+      "trial_type": "bilateral",
+      "label": 4,
+      "onset_sec": 776.5782,
+      "offset_sec": 782.7008,
+      "duration_sec": 6.1226
+    },
+    {
+      "block_id": 120,
+      "trial_type": "neutral",
+      "label": 2,
+      "onset_sec": 782.7008,
+      "offset_sec": 788.9784,
+      "duration_sec": 6.2776
+    },
+    {
+      "block_id": 121,
+      "trial_type": "neutral",
+      "label": 2,
+      "onset_sec": 788.9784,
+      "offset_sec": 795.9342,
+      "duration_sec": 6.9558
+    },
+    {
+      "block_id": 122,
+      "trial_type": "right",
+      "label": 1,
+      "onset_sec": 795.9342,
+      "offset_sec": 803.5367,
+      "duration_sec": 7.6025
+    },
+    {
+      "block_id": 123,
+      "trial_type": "bilateral",
+      "label": 4,
+      "onset_sec": 803.5367,
+      "offset_sec": 809.8984,
+      "duration_sec": 6.3617
+    },
+    {
+      "block_id": 124,
+      "trial_type": "right",
+      "label": 1,
+      "onset_sec": 809.8984,
+      "offset_sec": 815.6419,
+      "duration_sec": 5.7435
+    },
+    {
+      "block_id": 125,
+      "trial_type": "right",
+      "label": 1,
+      "onset_sec": 815.6419,
+      "offset_sec": 821.3519,
+      "duration_sec": 5.71
+    },
+    {
+      "block_id": 126,
+      "trial_type": "right",
+      "label": 1,
+      "onset_sec": 821.3519,
+      "offset_sec": 828.5899,
+      "duration_sec": 7.238
+    },
+    {
+      "block_id": 127,
+      "trial_type": "bilateral",
+      "label": 4,
+      "onset_sec": 828.5899,
+      "offset_sec": 836.0396,
+      "duration_sec": 7.4497
+    },
+    {
+      "block_id": 128,
+      "trial_type": "left",
+      "label": 0,
+      "onset_sec": 836.0396,
+      "offset_sec": 841.3555,
+      "duration_sec": 5.3158
+    },
+    {
+      "block_id": 129,
+      "trial_type": "bilateral",
+      "label": 4,
+      "onset_sec": 841.3555,
+      "offset_sec": 846.5552,
+      "duration_sec": 5.1997
+    },
+    {
+      "block_id": 130,
+      "trial_type": "left",
+      "label": 0,
+      "onset_sec": 846.5552,
+      "offset_sec": 853.3385,
+      "duration_sec": 6.7833
+    },
+    {
+      "block_id": 131,
+      "trial_type": "right",
+      "label": 1,
+      "onset_sec": 853.3385,
+      "offset_sec": 858.777,
+      "duration_sec": 5.4385
+    },
+    {
+      "block_id": 132,
+      "trial_type": "catch",
+      "label": 3,
+      "onset_sec": 858.777,
+      "offset_sec": 866.251,
+      "duration_sec": 7.474
+    },
+    {
+      "block_id": 133,
+      "trial_type": "left",
+      "label": 0,
+      "onset_sec": 866.251,
+      "offset_sec": 872.182,
+      "duration_sec": 5.931
+    },
+    {
+      "block_id": 134,
+      "trial_type": "left",
+      "label": 0,
+      "onset_sec": 872.182,
+      "offset_sec": 877.6136,
+      "duration_sec": 5.4316
+    },
+    {
+      "block_id": 135,
+      "trial_type": "right",
+      "label": 1,
+      "onset_sec": 877.6136,
+      "offset_sec": 885.3765,
+      "duration_sec": 7.7629
+    },
+    {
+      "block_id": 136,
+      "trial_type": "bilateral",
+      "label": 4,
+      "onset_sec": 885.3765,
+      "offset_sec": 890.8731,
+      "duration_sec": 5.4966
+    },
+    {
+      "block_id": 137,
+      "trial_type": "right",
+      "label": 1,
+      "onset_sec": 890.8731,
+      "offset_sec": 896.7273,
+      "duration_sec": 5.8542
+    },
+    {
+      "block_id": 138,
+      "trial_type": "left",
+      "label": 0,
+      "onset_sec": 896.7273,
+      "offset_sec": 902.1881,
+      "duration_sec": 5.4608
+    },
+    {
+      "block_id": 139,
+      "trial_type": "right",
+      "label": 1,
+      "onset_sec": 902.1881,
+      "offset_sec": 907.5346,
+      "duration_sec": 5.3465
+    },
+    {
+      "block_id": 140,
+      "trial_type": "right",
+      "label": 1,
+      "onset_sec": 907.5346,
+      "offset_sec": 912.598,
+      "duration_sec": 5.0634
+    },
+    {
+      "block_id": 141,
+      "trial_type": "neutral",
+      "label": 2,
+      "onset_sec": 912.598,
+      "offset_sec": 917.7642,
+      "duration_sec": 5.1662
+    },
+    {
+      "block_id": 142,
+      "trial_type": "right",
+      "label": 1,
+      "onset_sec": 917.7642,
+      "offset_sec": 923.2881,
+      "duration_sec": 5.5239
+    },
+    {
+      "block_id": 143,
+      "trial_type": "left",
+      "label": 0,
+      "onset_sec": 923.2881,
+      "offset_sec": 928.4483,
+      "duration_sec": 5.1601
+    },
+    {
+      "block_id": 144,
+      "trial_type": "catch",
+      "label": 3,
+      "onset_sec": 928.4483,
+      "offset_sec": 935.2217,
+      "duration_sec": 6.7734
+    },
+    {
+      "block_id": 145,
+      "trial_type": "bilateral",
+      "label": 4,
+      "onset_sec": 935.2217,
+      "offset_sec": 942.2638,
+      "duration_sec": 7.0421
+    },
+    {
+      "block_id": 146,
+      "trial_type": "bilateral",
+      "label": 4,
+      "onset_sec": 942.2638,
+      "offset_sec": 948.4447,
+      "duration_sec": 6.1809
+    },
+    {
+      "block_id": 147,
+      "trial_type": "right",
+      "label": 1,
+      "onset_sec": 948.4447,
+      "offset_sec": 954.3987,
+      "duration_sec": 5.954
+    },
+    {
+      "block_id": 148,
+      "trial_type": "catch",
+      "label": 3,
+      "onset_sec": 954.3987,
+      "offset_sec": 960.9123,
+      "duration_sec": 6.5136
+    },
+    {
+      "block_id": 149,
+      "trial_type": "left",
+      "label": 0,
+      "onset_sec": 960.9123,
+      "offset_sec": 968.5373,
+      "duration_sec": 7.625
+    },
+    {
+      "block_id": 150,
+      "trial_type": "left",
+      "label": 0,
+      "onset_sec": 968.5373,
+      "offset_sec": 976.0907,
+      "duration_sec": 7.5534
+    },
+    {
+      "block_id": 151,
+      "trial_type": "neutral",
+      "label": 2,
+      "onset_sec": 976.0907,
+      "offset_sec": 981.2211,
+      "duration_sec": 5.1304
+    },
+    {
+      "block_id": 152,
+      "trial_type": "right",
+      "label": 1,
+      "onset_sec": 981.2211,
+      "offset_sec": 986.7656,
+      "duration_sec": 5.5445
+    },
+    {
+      "block_id": 153,
+      "trial_type": "catch",
+      "label": 3,
+      "onset_sec": 986.7656,
+      "offset_sec": 992.4758,
+      "duration_sec": 5.7102
+    },
+    {
+      "block_id": 154,
+      "trial_type": "bilateral",
+      "label": 4,
+      "onset_sec": 992.4758,
+      "offset_sec": 998.224,
+      "duration_sec": 5.7482
+    },
+    {
+      "block_id": 155,
+      "trial_type": "left",
+      "label": 0,
+      "onset_sec": 998.224,
+      "offset_sec": 1004.9377,
+      "duration_sec": 6.7137
+    },
+    {
+      "block_id": 156,
+      "trial_type": "bilateral",
+      "label": 4,
+      "onset_sec": 1004.9377,
+      "offset_sec": 1011.1865,
+      "duration_sec": 6.2488
+    },
+    {
+      "block_id": 157,
+      "trial_type": "right",
+      "label": 1,
+      "onset_sec": 1011.1865,
+      "offset_sec": 1016.3343,
+      "duration_sec": 5.1478
+    },
+    {
+      "block_id": 158,
+      "trial_type": "catch",
+      "label": 3,
+      "onset_sec": 1016.3343,
+      "offset_sec": 1022.4551,
+      "duration_sec": 6.1208
+    },
+    {
+      "block_id": 159,
+      "trial_type": "bilateral",
+      "label": 4,
+      "onset_sec": 1022.4551,
+      "offset_sec": 1029.0264,
+      "duration_sec": 6.5713
+    }
+  ]
+}
